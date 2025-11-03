@@ -143,3 +143,9 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+"""
+every character needs to have:
+name, life, position, speed, stats
+"""
