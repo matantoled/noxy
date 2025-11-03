@@ -149,3 +149,16 @@ if __name__ == "__main__":
 every character needs to have:
 name, life, position, speed, stats
 """
+
+
+"""
+מה לשים בכל קובץ (ברמת “מה יהיו בו”, לא קוד)
+
+character.py: מחלקה בשם Character עם שדות: name, pos(x,y), hp/max_hp, speed, facing, stats (אובייקט מ־stats.py), slots (אובייקט/מילון מ־equipment_slots.py).
+
+player.py: מחלקה בשם Player שיורשת מ־Character, עם שדות תוספת: inventory, equipped, level/exp, קיצורי־מקשים/העדפות.
+
+stats.py: מחלקה בשם Stats עם ערכי דיפולט: strength, agility, intelligence, vitality, armor, move_speed, max_hp (וכו’).
+
+equipment_slots.py: מבנה שמגדיר אילו סלוטים קיימים ואיזה סוגי Items מותר בכל סלוט (נגדיר סוגי פריטים כשנגיע ל־items/).
+"""

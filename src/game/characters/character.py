@@ -7,3 +7,7 @@ class Character:
     self.current_hp = hp
     self.pos = pos
     self.stats = stats
+  
+  """
+  function : move, update hp, update position
+  """
