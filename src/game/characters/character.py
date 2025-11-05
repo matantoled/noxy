@@ -1,10 +1,10 @@
 from .stats import Stats
 
 class Character:
-  def __init__(self, name: str, hp: int, pos: tuple[float, float], stats: Stats) -> None:
+  def __init__(self, name: str, pos: tuple[float, float], 
+               stats: Stats, current_hp: int = 1,) -> None:
     self.name = name
-    self.max_hp = hp
-    self.current_hp = hp
+    self.current_hp = current_hp
     self.pos = pos
     self.stats = stats
   
